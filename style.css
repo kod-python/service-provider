@@ -5,6 +5,308 @@
 }
 
 
+
+
+
 @media only screen and (max-width:320px){
 
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* hero section starts here */
+
+    #hero img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10rem;
+    }
+
+    #hero .hero-img{
+      
+    }
+
+    #hero button{
+        display: grid;
+        text-align: center;
+        padding: 1rem 3rem;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-color: rgb(227, 223, 223);
+    }
+
+    #hero .ctn{
+        padding: 1rem 3.7rem;
+        margin-top: 5rem;
+    }
+
+    #hero .hero-button{
+        margin-top: 3rem;
+    }
+
+    #hero a{
+        text-decoration: none;
+    }
+
+    /* hero section ends here */
+
+
+    /* signup starts here */
+      #signup h1{
+        font-size: 1.3rem;
+        padding-bottom: 2.5rem;
+      }
+
+      #signup label{
+        font-size: 1.3rem;
+      }
+
+      #signup input{
+        display: grid;
+        padding: 1.5rem 3rem;
+        background-color: rgb(227, 223, 223);
+        border-radius: 0.5rem;
+ 
+      }
+
+     #signup .sign-input2{
+        margin-top: 2rem;
+     }
+
+     #signup .sign-input3{
+        margin-top: 2rem;
+     }
+
+     #signup button{
+        padding: 0.5rem 1.4rem;
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
+        background-color: rgb(227, 223, 223);
+       
+        }
+
+        #signup .sign-buton{
+            padding: 2.3rem;
+     }
+
+     #signup a{
+        text-decoration: none;
+        color: black;
+     }
+     
+
+    
+    /* signup ends here */
+
+    /* verify starts here */
+
+    #verify h1{
+        font-size: 1.3rem;
+        padding-bottom: 6rem;
+      }
+
+      #verify label{
+        font-size: 1.3rem;
+      }
+
+      #verify input{
+        display: grid;
+        padding: 1.5rem 3rem;
+        background-color: rgb(227, 223, 223);
+        border-radius: 0.5rem;
+ 
+      }
+      
+
+      #verify .verify-input{
+        padding-bottom: 5rem;
+      }
+   
+     #verify button{
+        padding: 0.5rem 2.5rem;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        background-color: rgb(227, 223, 223);
+       
+        }
+
+        #verify .verify-buton{
+            padding: 3.5rem;
+     }
+
+     #verify a{
+        text-decoration: none;
+        color: black;
+     }
+    /* verify ends here */
+
+
+    /* mainpage starts here */
+
+    #mainpage img{
+        width: 100px;
+        height: 100px;
+        margin: 2rem;
+    }
+
+    #mainpage .mainpage-img{
+        display: grid; 
+       grid-template-columns: auto auto;
+       
+    }
+    
+    #mainpage .mainpage-img .main-image1 p{
+        text-align: center;
+    }
+    /* mainpage ends here */
+
+    /* footer starts here */
+    footer .footer-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+
+    footer .footer-main{
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 80px;
+    }
+
+    footer .footer-main button{
+        padding: 0.5rem 0.2rem;
+    }
+   
+    footer .footer-main a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+        
+      
+    /* footer ends here */
+
+
+    /* search section starts here */
+
+
+   
+    #search input{
+        display: grid;
+        padding: 1.5rem 3rem;
+        background-color: rgb(227, 223, 223);
+        border-radius: 0.5rem;
+ 
+      }
+      
+
+      #search .search-input{
+        padding-bottom: 5rem;
+      }
+
+      #search .search-input{
+        padding-bottom: 5rem;
+      }
+
+      #search footer{
+        margin-top: 16rem;
+      }
+   #search .search-input p{
+    font-size: 1.4rem;
+   }
+   #search .search-input label{
+    font-size: 1.4rem;
+   }
+   
+   #search form{
+    margin-top: 5rem;
+   }
+
+   #search a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    
+   }
+
+   #search h1{
+    text-align: center;
+    font-size: 1.8rem;
+   }
+
+#search .links{
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+#search .links .links-plumb{
+    margin-top: 1.2rem;
+ 
+}
+
+#search footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+   
+   /* search ends here */
+
+    /* carpenter starts here */
+    #carpenter h1{
+        text-align: center;
+        font-size: 1.8rem;
+       }
+
+    #carpenter input{
+        display: grid;
+        padding: 1.5rem 3rem;
+        background-color: rgb(227, 223, 223);
+        border-radius: 0.5rem;
+ 
+      }
+      
+      #carpenter form{
+        margin-top: 3rem;
+       }
+    
+      #carpenter .carpenter-input{
+        padding-bottom: 5rem;
+      }
+
+      #carpenter .carpenter-input{
+        padding-bottom: 5rem;
+      }
+
+    #carpenter .provider-main .provider img{
+        width: 70px;
+        height: 70px;
+        border-radius: 3rem;
+      
+      }
+    
+      #carpenter  .provider{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 2rem;
+        
+      }
+
+     
+
+      #carpenter .provider a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+      }
+    /* carpenter ends here */
 }
