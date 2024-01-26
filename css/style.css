@@ -104,6 +104,57 @@
     
     /* signup ends here */
 
+
+
+      /* login starts here */
+      #login h1{
+        font-size: 1.3rem;
+        padding-bottom: 3.5rem;
+        text-align: center;
+        margin-top: -70px;
+      }
+
+      #login label{
+        font-size: 1.3rem;
+      
+      }
+
+      #login input{
+        display: grid;
+        padding: 1.5rem 3rem;
+        background-color: rgb(227, 223, 223);
+        border-radius: 0.5rem;
+ 
+      }
+
+     #login .login-input2{
+        margin-top: 3.5rem;
+     }
+
+     #login .login-input3{
+        margin-top: 2.5rem;
+     }
+
+     #login button{
+        padding: 0.8rem 2.5rem;
+        border-radius: 0.5rem;
+        font-size: 1.3rem;
+        background-color: rgb(227, 223, 223);
+       
+        }
+
+        #login .login-buton{
+            padding: 57px;
+            margin-top: 3rem;
+     }
+
+     #login a{
+        text-decoration: none;
+        color: black;
+     }
+     
+/* login ends here */
+
     /* verify starts here */
 
     #verify h1{
@@ -375,4 +426,61 @@
       background-color: rgb(227, 223, 223);
     }
     /* provider1 ends here */
+
+    /* profile starts here */
+
+    #profile h1{
+      font-size: 1.3rem;
+      
+      padding-bottom: 20px;
+    }
+
+    #profile  img{
+      width: 140px;
+      height: 140px;
+      border-radius: 200px;
+    }
+
+    #profile .profile-img{
+      padding-bottom: 20px;
+    }
+
+ #profile .nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 10px;
+  border-radius: 5px;
+ margin-left: -30px;
+ width: 240px;
+ height: 548px;
+ padding: 20px;
+ background-color: rgb(227, 223, 223);
+ }
+   
+
+#profile footer{
+  margin-top: -118px;
+  
+}
+  
+#profile a{
+  text-decoration: none;
+  color: black;
+}
+
+#profile .nav a{
+  font-size: 1.2rem;
+}
+
+#profile .nav .logout{
+  margin-top: 120px;
+}
+
+
+#profile .footer-main{
+  gap: 20px;
+}
+
+    /* profile ends here */
 }
